@@ -12,8 +12,9 @@ print("\nThe list is : ",list)
 print("\nThe length of the list is : ",len(list))
 
 for j in list:
-    if (j**0.5 == int(j**0.5)) :
-        print("\nThe number ",j," is a sequare")
+    list_1.append(j**2)
+
+print("\nThe squared values of the list are : ", list_1)
 
 #In one line check if 57 is in the list using one line of python.
 
